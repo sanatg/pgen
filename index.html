@@ -1,44 +1,52 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - A Pen by sanatg</title>
-  <link rel="stylesheet" href="./style.css">
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<!DOCTYPE html>
+
+    <!DOCTYPE html>
 
 <html lang="en">
 
 <head>
 
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Password Generator</title>
+  <title>Password Generator</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 
 </head>
 
-<body>
+<body class="bg-gradient-to-br from-blue-500 to-purple-600 min-h-screen">
 
-    <div class="container">
+  <div class="container mx-auto px-4 min-h-screen flex items-center justify-center">
 
-        <h1>Complex Password Generator</h1>
+    <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
 
-        <button id="generateBtn">Generate Password</button>
+      <h1 class="text-3xl font-bold mb-6">Complex Password Generator</h1>
 
-        <div id="passwordDisplay" class="password-display"></div>
+      <div class="mb-6">
+
+        <button id="generateBtn" class="bg-indigo-600 text-white w-full py-3 rounded-lg font-bold">Generate Password</button>
+
+      </div>
+
+      <div id="passwordDisplay" class="text-xl font-bold bg-gray-100 py-3 px-4 rounded-lg"></div>
 
     </div>
 
-</body>
+  </div>
 
-</html>
-<!-- partial -->
-  <script  src="./script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.0/gsap.min.js"></script>
 
 </body>
+<script src="./script.js"></script>
 </html>
+
+
+
+
+
+    
+
+
+
